@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    border: thin solid rgb(47, 42, 42);
+    flex: 1;
+    max-width: 400px;
+    height: 400px;
+}
